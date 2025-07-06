@@ -1,0 +1,29 @@
+{
+    "item.eat": "* Tu manges le {insert ITEM}.",
+    "item.equip": "* Tu équipes le {insert ITEM}.",
+    "item.heal.part": "* Tu récupères {insert HP} PV!",
+    "item.heal.all": "* Tu récupères tous tes PV!",
+    
+    "item.drop.0": "* Le {insert ITEM} a été jeté.",
+    "item.drop.1": "* Tu dis adieu au {insert ITEM}.",
+    "item.drop.2": "* Tu poses le {insert ITEM} au sol et lui donner une petite tape.",
+    "item.drop.3": "* Tu jettes le {insert ITEM} par terre. Bon débarras.",
+    "item.drop.4": "* Tu laisses tomber le {insert ITEM}.",
+
+    "item.stick.name": "Bâton",
+    "item.stick.info": "* Bâton - Arme ATT 0#* Clairement pas la meilleure des armes.",
+    "item.stick.use": "* Tu jettes le bâton.#* Ensuite, tu le ramasses.#* ... T'es un chien ?.",
+
+    "item.bandage.name": "Bandage",
+    "item.bandage.info": "* Bandage - Soigne 10 PV#* Il a déjà été utilisé plein de fois.",
+    "item.bandage.use.0": "* Tu remets le bandage.",
+    "item.bandage.use.1": "* C'est gluant.",
+
+    "item.toy_knife.name": "Couteau en Plastique",
+    "item.toy_knife.name.short": "Couteau Plastique",
+    "item.toy_knife.info": "* Couteau en Plastique - Arme ATT 3&* Fait en plastique.#* Quelle surprise.",
+
+    "item.faded_ribbon.name": "Ruban Fané",
+    "item.faded_ribbon.name.short": "Ruban Fané",
+    "item.faded_ribbon.info": "* Ruban Fané - Armure DF 3&* C'est mignon, mais ce n'est pas ton style."
+}

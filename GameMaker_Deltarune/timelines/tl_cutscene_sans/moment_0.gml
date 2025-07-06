@@ -1,0 +1,7 @@
+textbox_create()
+textbox_voice(snd_txtsans)
+textbox_add("{sans}* tiens, regardez donc qui voilà.", spr_facesans_chuckle)
+textbox_add("{sans}* ça fait un bout de temps qu'on s'était pas vu, pas vrai ?", spr_facesans_wink)
+textbox_add("{sans}* quoi d'neuf, alors ?", spr_facesans_neutral)
+textbox_add("{papyrus}NYEH NYEH NYEH !!!! EH OUI, C'EST BIEN MOI, LE GRAND PAPYRUS !!!!")
+textbox_start()

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_heartsplit",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.710068,
+  "name":"snd_heartsplit",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Sons/Battle.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_heartsplit",
+  "type":0,
+  "volume":1.0,
+}

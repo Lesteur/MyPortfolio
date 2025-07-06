@@ -1,0 +1,5 @@
+textbox_create()
+textbox_voice(snd_txtberdly)
+textbox_add("* Kris ! * J'ai une excellente nouvelle pour toi !", spr_faceberdly_happy)
+textbox_add("* J'ai décidé de réduire ta dette de 0.01%. * N'est ce pas généreux ?", spr_faceberdly_naughty)
+textbox_start()

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_cdbagel_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_cdbagel_item",
+  "parent":{
+    "name":"Consumables",
+    "path":"folders/Scripts/Items/Consumables.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_lightitem_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_lightitem_create",
+  "parent":{
+    "name":"Light",
+    "path":"folders/Scripts/Items/Light.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

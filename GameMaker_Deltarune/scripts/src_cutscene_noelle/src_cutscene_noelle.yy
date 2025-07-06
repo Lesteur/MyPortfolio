@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_cutscene_noelle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_cutscene_noelle",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Scripts/Cutscenes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

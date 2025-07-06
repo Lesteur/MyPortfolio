@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"functions_magic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"functions_magic",
+  "parent":{
+    "name":"Scripts_fight",
+    "path":"folders/Scripts/Scripts_fight.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

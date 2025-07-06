@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_armoritem_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_armoritem_create",
+  "parent":{
+    "name":"Armors",
+    "path":"folders/Scripts/Items/Armors.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

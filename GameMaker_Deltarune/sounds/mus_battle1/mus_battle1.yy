@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_battle1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":0,
+  "conversionMode":0,
+  "duration":55.083538,
+  "name":"mus_battle1",
+  "parent":{
+    "name":"Background",
+    "path":"folders/Sons/Battle/Background.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_battle1",
+  "type":0,
+  "volume":1.0,
+}

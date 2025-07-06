@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_darkitem_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_darkitem_create",
+  "parent":{
+    "name":"Consumables",
+    "path":"folders/Scripts/Items/Consumables.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

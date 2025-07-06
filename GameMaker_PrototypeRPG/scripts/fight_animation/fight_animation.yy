@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fight_animation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fight_animation",
+  "parent":{
+    "name":"Scripts_draw_fight",
+    "path":"folders/Scripts/Scripts_draw_fight.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sound36_Flee",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.256553,
+  "name":"sound36_Flee",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Sons/Battle.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound36_Flee",
+  "type":0,
+  "volume":1.0,
+}

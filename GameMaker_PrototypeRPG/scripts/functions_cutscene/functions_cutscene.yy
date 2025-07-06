@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"functions_cutscene",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"functions_cutscene",
+  "parent":{
+    "name":"Scripts_overworld",
+    "path":"folders/Scripts/Scripts_overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

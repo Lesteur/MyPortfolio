@@ -1,0 +1,11 @@
+{
+    "battle.menu.mercy.spare": "* Épargner",
+    "battle.menu.mercy.flee": "* Fuir",
+    "battle.result.won": "* VICTOIRE !#* Vous avez gagné {insert EXP} EXP et {insert GOLD} PO.",
+    "battle.result.fled.0": "* Partons d'ici...",
+    "battle.result.fled.1": "* Je me casse d'ici.",
+    "battle.result.fled.2": "* J'ai mieux à faire ailleurs.",
+    "battle.result.fled.3": "* Débrouillez-vous sans moi.",
+    "battle.result.fled.reward": "* Vous avez fui avec {insert EXP} EXP et {insert GOLD} PO.",
+    "battle.result.lv_up": "* Tu sens une nouvelle force en toi."
+}

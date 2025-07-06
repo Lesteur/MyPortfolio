@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"interact_overworld",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"interact_overworld",
+  "parent":{
+    "name":"Scripts_overworld",
+    "path":"folders/Scripts/Scripts_overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

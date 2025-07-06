@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"set_depth",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_depth",
+  "parent":{
+    "name":"Scripts_overworld",
+    "path":"folders/Scripts/Scripts_overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

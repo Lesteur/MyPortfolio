@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"skills_conditions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"skills_conditions",
+  "parent":{
+    "name":"Scripts_create",
+    "path":"folders/Scripts/Scripts_create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_txttoriel",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.089297,
+  "name":"snd_txttoriel",
+  "parent":{
+    "name":"Voice",
+    "path":"folders/Sons/Voice.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_txttoriel",
+  "type":0,
+  "volume":1.0,
+}

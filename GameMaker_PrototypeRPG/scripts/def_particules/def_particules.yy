@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"def_particules",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"def_particules",
+  "parent":{
+    "name":"Scripts_create",
+    "path":"folders/Scripts/Scripts_create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_keyitem_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_keyitem_create",
+  "parent":{
+    "name":"Keys",
+    "path":"folders/Scripts/Items/Keys.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

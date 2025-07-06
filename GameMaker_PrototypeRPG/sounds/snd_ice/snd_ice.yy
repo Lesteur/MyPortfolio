@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_ice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.269833,
+  "name":"snd_ice",
+  "parent":{
+    "name":"sound_effects",
+    "path":"folders/Sons/sound_effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_ice.ogg",
+  "type":0,
+  "volume":1.0,
+}

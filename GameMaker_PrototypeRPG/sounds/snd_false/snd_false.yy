@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_false",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.714286,
+  "name":"snd_false",
+  "parent":{
+    "name":"sound_effects",
+    "path":"folders/Sons/sound_effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_false.wav",
+  "type":0,
+  "volume":1.0,
+}

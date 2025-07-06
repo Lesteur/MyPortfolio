@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_increase_power",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.35,
+  "name":"snd_increase_power",
+  "parent":{
+    "name":"sound_effects",
+    "path":"folders/Sons/sound_effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_increase_power.wav",
+  "type":0,
+  "volume":1.0,
+}

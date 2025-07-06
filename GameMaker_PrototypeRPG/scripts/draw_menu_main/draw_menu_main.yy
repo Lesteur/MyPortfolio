@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_menu_main",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_menu_main",
+  "parent":{
+    "name":"Scripts_draw_menu",
+    "path":"folders/Scripts/Scripts_draw_menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

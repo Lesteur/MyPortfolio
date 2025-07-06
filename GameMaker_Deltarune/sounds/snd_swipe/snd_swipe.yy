@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_swipe",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.55873,
+  "name":"snd_swipe",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Sons/Battle.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_swipe",
+  "type":0,
+  "volume":1.0,
+}

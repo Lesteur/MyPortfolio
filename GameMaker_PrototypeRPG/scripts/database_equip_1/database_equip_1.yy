@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"database_equip_1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"database_equip_1",
+  "parent":{
+    "name":"Databases",
+    "path":"folders/Scripts/Databases.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

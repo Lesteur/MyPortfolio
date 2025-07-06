@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_scr_afterimage_grow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_scr_afterimage_grow",
+  "parent":{
+    "name":"Afterimage",
+    "path":"folders/Scripts/Afterimage.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

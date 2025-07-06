@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_txtceroba",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.177279,
+  "name":"snd_txtceroba",
+  "parent":{
+    "name":"Voice",
+    "path":"folders/Sons/Voice.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_txtceroba.wav",
+  "type":0,
+  "volume":1.0,
+}
