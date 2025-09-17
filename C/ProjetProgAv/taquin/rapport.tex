@@ -1,0 +1,140 @@
+% Created 2023-12-21 jeu. 18:32
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Adam Ibnouzahir}
+\date{\today}
+\title{Rapport du projet de Programmation Avancée}
+\hypersetup{
+ pdfauthor={Adam Ibnouzahir},
+ pdftitle={Rapport du projet de Programmation Avancée},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Introduction}
+\label{sec:orgb28f1eb}
+
+Nous avons reproduit le jeu du taquin dans un programme de C et grâce à la bibliothèque SDL. Ce programme nous permet de créer une fenêtre grâce à laquelle on peut jouer au Taquin.
+
+\section{Présentation du jeu}
+\label{sec:orgb7abdb1}
+
+\subsection{Règles}
+\label{sec:org29dc8cf}
+
+Les règles du taquin sont les mêmes règles classiques. Il consiste en un plateau classique composé de quatre lignes et quatre colonnes. Ce plateau comporte quinze pavés avec une case libre. Chaque pavé est numéroté avec un nombre unique compris entre 1 et 15.
+
+Les pavés sont disposés sur le plateau d'une manière désordonnée. Le but est de se ramner à la situation où les nombres sont triés de manière croissante. Seuls les pavés adjacents à la case libre peuvent être placés sur cette case.
+
+\subsection{Organisation}
+\label{sec:org167c8de}
+
+Il faut d'abord noter que notre programme peut accueillir un argument \(n\) qui définira la taille du puzzle initial. Si aucun argument n'est mis, alors \(n\) est initialisé à 4.
+
+Pour notre projet, nous avons décidé d'utiliser la librairie SDL pour créer le jeu sur une fenêtre. En lançant le programme, nous avons d'abord un menu textuel qui nous propose de lancer soit un taquin aléatoire de taille \(n\) en tapant 1 ou un taquin importé d'un fichier en tapant 2. Il est à noter que le fichier texte doit être de cette forme, comme par exemple pour un taquin de taille 4 :
+
+\begin{verbatim}
+4
+X X X X
+X X X X
+X X X X
+X X X X
+\end{verbatim}
+
+Une fois que l'option a été choisi, une fenêtre s'ouvre et on peut commencer à jouer au taquin. On déplace la case vide grâce aux touches directionnelles. On peut donc déplacer les cases simplement. Lorsque qu'on remet toutes les cases en ordre, une animation de ``victoire'' s'ensuit où toutes les cases sont affichés en vert une par une.
+
+\section{Présentation du code}
+\label{sec:org96935f3}
+
+Nous allons présenter toutes les différentes fonctions du programme, comment elles marchent et nous donnerons le déroulement de notre programme.
+
+\subsection{Structures}
+\label{sec:orga16eb1c}
+
+Présentons les structures du programme :
+
+\begin{itemize}
+\item \texttt{typedef struct Taquin} : Cette structure représente l'intégralité du jeu de taquin.
+\begin{itemize}
+\item \texttt{int ** puzzle} : Tableau 2D représentant le puzzle.
+\item \texttt{taille} : Dimensions du tableau de taquin.
+\item \texttt{int vide\_y} : Coordonnée \(y\) de l'espace vide.
+\item \texttt{int vide\_x} : Coordonnée \(x\) de l'espace vide.
+\end{itemize}
+\item \texttt{typedef enum} : Cette liste d'enum représente les directions dans laquelle le joueur peut déplacer l'espace vide. Elle est composée de \texttt{HAUT}, \texttt{BAS}, \texttt{GAUCHE} et \texttt{DROITE}.
+\end{itemize}
+
+\subsection{Fonctions}
+\label{sec:org699c8c3}
+
+\subsubsection{Fonctions du Taquin}
+\label{sec:org4091304}
+
+Ces fonctions sont contenues dans les fichiers \texttt{f\_taquin.c} et \texttt{f\_taquin.h}.
+
+\begin{itemize}
+\item \texttt{int ** CreerTab(int n)} : Prend en paramètre un entier \texttt{n} et renvoie l'adresse d'un tableau rempli à deux dimensions de taille \texttt{n}. Ce tableau alloue des cases dynamiquement. Il contiendra les valeurs du puzzle du taquin. Toutes les cases seront numérotés dans l'ordre à l'exception de la dernière case en bas à droite qui sera la case vide.
+\item \texttt{bool ContientValeur(Taquin * taquin, int valeur)} : Prend en paramètre une adresse de structure Taquin \texttt{taquin} et un entier \texttt{valeur}. Cette fonction vérifie si le tableau du taquin contient la valeur indiquée. Si c'est le cas, elle renvoie \texttt{true}, sinon elle renvoie \texttt{false}. Elle est utilisée pour savoir si un taquin importé est valide.
+\item \texttt{Taquin * ImportTaquin(FILE * file)} : Prend en paramètre une adresse de fichier et renvoie une adresse de taquin. La fonction lit le contenu du fichier pour importer le taquin correspondant. Mais si le contenu ne correspond au format demandé ou si le taquin n'est pas vide, la fonction renvoie une adresse vide.
+\item \texttt{Taquin * CreerTaquin(int n)} : Prend en paramètre un entier \texttt{n} et renvoie une adresse de taquin. Ce taquin aura un tableau 2D rempli grâce à la fonction \texttt{CreerTab} et tous les attributs remplis au préalable.
+\item \texttt{Taquin * CreerTaquinVide(int n)} : Prend en paramètre un entier \texttt{n} et renvoie une adresse de taquin. A la différence de la fonction précédente, elle ne fait pas appel à \texttt{CreerTab} et a un tableau rempli de zéros. Elle est utilisée pour remplir un taquin importé.
+\item \texttt{void FreeTaquin(Taquin * puzzle)} : Prend en paramètre un entier \texttt{n}. Cette fonction permet de vider toute la mémoire allouée par le tableau du taquin et de libérer l'adresse.
+\item \texttt{void BougeTaquin(Taquin * puzzle, TaquinMouvement touche)} : Prend en paramètre une adresse de taquin et un enum \texttt{TaquinMouvement}. Cette fonction est importante car elle permettra au joueur de faire bouger le taquin. Par exemple, si on met \texttt{HAUT}, la case libre bougera avec la case du haut, si c'est possible, si c'est \texttt{GAUCHE}, elle permutera avec la case de gauche.
+\item \texttt{void InitTaquin(Taquin * puzzle, int iter)} : Prend en paramètre une adresse de taquin avec un tableau organisé et un entier \texttt{iter}. Cette fonction de mélanger le tableau du taquin en utilisant \(inter\) fois la fonction \texttt{TaquinMouvement}. On utilise cette fonction pour faire en sorte que le puzzle reste soluble.
+\item \texttt{bool VerifTab(Taquin * taquin)} : Prend en paramètre une adresse de taquin. Elle vérifie à chaque mouvement du joueur si le tableau est dans l'ordre. On utilise cette fonction pour vérifier si le joueur a gagné.
+\end{itemize}
+
+\subsubsection{Fonctions du SDL}
+\label{sec:org0149f8e}
+
+Ces fonctions sont contenues dans les fichiers \texttt{f\_sdl.c} et \texttt{f\_sdl.h}.
+
+\begin{itemize}
+\item \texttt{SDL\_Window * CreerFenetre(char * title, int width, int height)} : Prend en paramètre une chaîne de caractères \texttt{title} et deux entiers \texttt{width} et \texttt{height}. Cette fonction simplifie la création de fenêtre en créant une fenêtre de dimension \texttt{width} * \texttt{height} avec le titre \texttt{title}. Renvoie une adresse nulle si elle échoue.
+\item \texttt{SDL\_Renderer * CreerRendu(SDL\_Window * window)} : Prend en paramètre l'adresse d'une fenêtre. Simplifie la création du rendu sur une fenêtre pour affecter les graphismes de la fenêtre. Renvoie une adresse vide si elle échoue.
+\item \texttt{SDL\_Surface * CreerTexte(TTF\_Font * font, char * str, SDL\_Color textColor)} : Prend en paramètre une chaîne de caractères, une police TTF et une couleur SDL. Cette fonction permet de créer une surface SDL en écrivant un texte. Elle renvoie la surface. Renvoie une adresse vide si elle échoue.
+\item \texttt{SDL\_Texture * CreerTexture(SDL\_Renderer * renderer, SDL\_Surface * surface)} : Prend en paramètre le rendu de la fenêtre et une surface SDL. La fonction crée une texture SDL pour le rendu pour afficher le texte créé. Renvoie une adresse vide si elle échoue.
+\item \texttt{SDL\_InitAll} : Cette fonction permet d'initialiser les librairies SDL \texttt{SDL\_INIT(SDL\_INIT\_VIDEO)} et \texttt{TTF\_Init()}. Quitte le programme si elle échoue.
+\end{itemize}
+
+\subsubsection{Fonctions complémentaires}
+\label{sec:orgcf60a90}
+
+Ces fonctions font appel aux deux autres fichiers.
+
+\begin{itemize}
+\item \texttt{bool AfficherTaquin(Taquin * taquin, SDL\_Renderer * renderer, TTF\_Font * font)} : Prend en paramètre l'adresse du taquin, le rendu de la fenêtre et la police TTF. Cette fonction très importante fait appel aux autres fonctions pour pouvoir afficher les cases du jeu de taquin et les réactualiser quand le joueur interagit. La case rouge représente l'espace vide du taquin. Quand le joueur remet en ordre le jeu de taquin, la fonction affiche en vert une par une les cases du puzzle pour faire une animation de victoire. Elle renvoie \texttt{false} s'il y a un problème.
+\end{itemize}
+
+\subsection{Déroulement du programme}
+\label{sec:orgc9342a5}
+
+\section{Jeu textuel}
+\label{sec:org6b58df5}
+
+\subsection{Présentation}
+\label{sec:orgb051dd7}
+
+\subsection{Déroulement}
+\label{sec:orgadf8dec}
+
+\section{Conclusion}
+\label{sec:org4e7bf1b}
+\end{document}
