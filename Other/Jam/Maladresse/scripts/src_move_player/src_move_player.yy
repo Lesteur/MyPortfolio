@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_move_player",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_move_player",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

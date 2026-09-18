@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://kprea2epip0w"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_gp7es"]
+[ext_resource type="SpriteFrames" uid="uid://cx5ln8r2x81rs" path="res://Assets/PlayerAnimation.tres" id="2_7p4yi"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8vsrh"]
+radius = 5.25
+height = 20.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3c67b"]
+size = Vector2(20, 12.5)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_gp7es")
+
+[node name="player_collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3.5)
+rotation = 1.5708
+scale = Vector2(2, 2)
+shape = SubResource("CapsuleShape2D_8vsrh")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 8
+
+[node name="detection_shape" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_3c67b")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -6)
+rotation = 3.14159
+scale = Vector2(0.6, 0.6)
+sprite_frames = ExtResource("2_7p4yi")

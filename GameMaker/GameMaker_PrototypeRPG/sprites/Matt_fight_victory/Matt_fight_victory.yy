@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Matt_fight_victory",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"478170a2-bc4a-4178-bc74-43a866c7d980","name":"478170a2-bc4a-4178-bc74-43a866c7d980","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6d05fa55-1aa1-486f-990b-8652bb806f82","name":"6d05fa55-1aa1-486f-990b-8652bb806f82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"261b0ba2-07ef-4106-a821-646c236ebdd6","name":"261b0ba2-07ef-4106-a821-646c236ebdd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"478170a2-bc4a-4178-bc74-43a866c7d980","name":"478170a2-bc4a-4178-bc74-43a866c7d980","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d05fa55-1aa1-486f-990b-8652bb806f82","name":"6d05fa55-1aa1-486f-990b-8652bb806f82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"261b0ba2-07ef-4106-a821-646c236ebdd6","name":"261b0ba2-07ef-4106-a821-646c236ebdd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,30 +75,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"478170a2-bc4a-4178-bc74-43a866c7d980","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"436d948d-8aea-404d-ae3f-7d5061759572","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d05fa55-1aa1-486f-990b-8652bb806f82","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"10115605-c33d-4533-b9da-af58987aa522","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b941b029-92e0-40e6-9165-55ca2821083a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"204c4c8b-c89f-41a9-a36a-c79504634ebc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f7a8e30e-f056-44f7-b5fb-ba07be59bcd7","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"50317f05-6314-465f-b328-7009508bebd2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"010c47d8-795b-48f6-ada2-33c5824d5b69","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"261b0ba2-07ef-4106-a821-646c236ebdd6","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"716c451e-0010-40a3-ac4e-26ef8b5b027c","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"478170a2-bc4a-4178-bc74-43a866c7d980","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"436d948d-8aea-404d-ae3f-7d5061759572","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d05fa55-1aa1-486f-990b-8652bb806f82","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10115605-c33d-4533-b9da-af58987aa522","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"12d20171-6e5c-48c3-8458-faf709dfc5e7","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b941b029-92e0-40e6-9165-55ca2821083a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a2442d1-6633-4dc8-a58e-608ece2b7a37","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"204c4c8b-c89f-41a9-a36a-c79504634ebc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5745e8e8-9e66-4d43-9be7-4d8133f854b4","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f7a8e30e-f056-44f7-b5fb-ba07be59bcd7","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1820c9a-7023-4f2d-8ffe-36cabdad850b","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"50317f05-6314-465f-b328-7009508bebd2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"aef8d7d4-6358-4e5e-a4df-0e6f48359224","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"010c47d8-795b-48f6-ada2-33c5824d5b69","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"261b0ba2-07ef-4106-a821-646c236ebdd6","path":"sprites/Matt_fight_victory/Matt_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"716c451e-0010-40a3-ac4e-26ef8b5b027c","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

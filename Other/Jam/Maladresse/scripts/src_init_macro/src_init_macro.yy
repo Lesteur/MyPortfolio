@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_init_macro",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_init_macro",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://b7mci7kesvnjp"]
+
+[ext_resource type="Texture2D" uid="uid://b25r5qdpeny34" path="res://Item_sprites/Confettis/1.png" id="1_o7337"]
+[ext_resource type="Texture2D" uid="uid://dh2dubw6re7" path="res://Item_sprites/Confettis/2.png" id="2_o3tck"]
+[ext_resource type="Texture2D" uid="uid://bibh41cyq6jsd" path="res://Item_sprites/Confettis/3.png" id="3_u0a8g"]
+[ext_resource type="Texture2D" uid="uid://dequ75ybes36r" path="res://Item_sprites/Confettis/4.png" id="4_l7a4k"]
+[ext_resource type="Texture2D" uid="uid://dodkd5ynvueyr" path="res://Item_sprites/Confettis/5.png" id="5_cl61l"]
+[ext_resource type="Texture2D" uid="uid://5y5wjjcduwbs" path="res://Item_sprites/Confettis/6.png" id="6_t83u5"]
+[ext_resource type="Texture2D" uid="uid://btjh6n0rqrdqo" path="res://Item_sprites/Confettis/7.png" id="7_qmtqo"]
+[ext_resource type="Texture2D" uid="uid://cfybwy1dvulqo" path="res://Item_sprites/Confettis/8.png" id="8_8jv81"]
+[ext_resource type="Texture2D" uid="uid://b1s3aor5igw02" path="res://Item_sprites/Confettis/9.png" id="9_j8g54"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o7337")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_o3tck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_u0a8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_l7a4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cl61l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_t83u5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qmtqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8jv81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_j8g54")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

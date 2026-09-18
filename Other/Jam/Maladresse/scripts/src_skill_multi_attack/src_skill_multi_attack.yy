@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_skill_multi_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_skill_multi_attack",
+  "parent":{
+    "name":"Allies",
+    "path":"folders/Scripts/Skills/Allies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

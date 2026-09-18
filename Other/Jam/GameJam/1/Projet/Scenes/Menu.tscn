@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://r21hkorn2bhc"]
+
+[ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_8x2dq"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_8x2dq")
+metadata/_edit_horizontal_guides_ = [-74.0]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+alignment = 1
+
+[node name="Resume" type="Button" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Resume
+"
+
+[node name="Restart" type="Button" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Restart
+"
+
+[node name="Command" type="Button" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Commands
+"
+
+[node name="Quit" type="Button" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Quit
+"
+
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/VBoxContainer/Resume" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/VBoxContainer/Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/VBoxContainer/Command" to="." method="_on_command_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

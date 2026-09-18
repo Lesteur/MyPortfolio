@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_parent_skill",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_parent_skill",
+  "parent":{
+    "name":"Skills",
+    "path":"folders/Scripts/Skills.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

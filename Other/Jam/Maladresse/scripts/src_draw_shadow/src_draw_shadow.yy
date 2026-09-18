@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_draw_shadow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_draw_shadow",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

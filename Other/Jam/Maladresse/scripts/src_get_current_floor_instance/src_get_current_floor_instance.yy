@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_get_current_floor_instance",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_get_current_floor_instance",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

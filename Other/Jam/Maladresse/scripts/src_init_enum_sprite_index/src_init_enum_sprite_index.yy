@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_init_enum_sprite_index",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_init_enum_sprite_index",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

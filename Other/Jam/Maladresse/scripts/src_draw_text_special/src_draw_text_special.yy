@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_draw_text_special",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_draw_text_special",
+  "parent":{
+    "name":"String",
+    "path":"folders/Scripts/String.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

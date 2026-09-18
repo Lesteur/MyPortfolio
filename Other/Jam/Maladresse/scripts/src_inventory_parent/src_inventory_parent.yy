@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_inventory_parent",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_inventory_parent",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Scripts/Misc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

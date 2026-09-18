@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://danmhja03tdyo"]
+
+[ext_resource type="Script" path="res://Command.gd" id="1_lvfmp"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_lvfmp")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="TextEdit" type="TextEdit" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+text = "Commands:
+menu: echap
+up: z or w or Arrow Up
+down: s or Arrow down
+left : q or a or Arrow left
+right: d or Arrow right
+drop: alt
+drop and keep: space"
+editable = false
+shortcut_keys_enabled = false
+
+[node name="Return" type="Button" parent="CanvasLayer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 31)
+layout_mode = 2
+text = "Menu"
+
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/VBoxContainer/Return" to="." method="_on_return_pressed"]

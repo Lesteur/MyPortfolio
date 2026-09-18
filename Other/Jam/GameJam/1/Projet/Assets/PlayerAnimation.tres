@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://cx5ln8r2x81rs"]
+
+[ext_resource type="Texture2D" uid="uid://tevgebduuwhe" path="res://Item_sprites/bouffon.png" id="1_00jje"]
+[ext_resource type="Texture2D" uid="uid://dyms4dr70gudk" path="res://Item_sprites/bouffondroitegauche.png" id="2_fx1hl"]
+[ext_resource type="Texture2D" uid="uid://dpcc0gnnlra0f" path="res://Item_sprites/bouffongauchedroite.png" id="3_vawhb"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_00jje")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fx1hl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vawhb")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 5.0
+}]

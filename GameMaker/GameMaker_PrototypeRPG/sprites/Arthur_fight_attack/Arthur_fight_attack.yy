@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Arthur_fight_attack",
   "bboxMode":0,
   "bbox_bottom":38,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c81e525-2653-41de-9216-ae70a12f1ef9","name":"7c81e525-2653-41de-9216-ae70a12f1ef9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"256fce00-49ff-4d77-970c-54491de01c86","name":"256fce00-49ff-4d77-970c-54491de01c86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"81685b2c-7c51-40a5-a707-08547c447e9a","name":"81685b2c-7c51-40a5-a707-08547c447e9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4f73e42b-991a-4d2e-80e5-de079f730f75","name":"4f73e42b-991a-4d2e-80e5-de079f730f75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"473c928b-2d1b-4af3-8449-71c015f272ba","name":"473c928b-2d1b-4af3-8449-71c015f272ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c81e525-2653-41de-9216-ae70a12f1ef9","name":"7c81e525-2653-41de-9216-ae70a12f1ef9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"256fce00-49ff-4d77-970c-54491de01c86","name":"256fce00-49ff-4d77-970c-54491de01c86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"81685b2c-7c51-40a5-a707-08547c447e9a","name":"81685b2c-7c51-40a5-a707-08547c447e9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f73e42b-991a-4d2e-80e5-de079f730f75","name":"4f73e42b-991a-4d2e-80e5-de079f730f75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"473c928b-2d1b-4af3-8449-71c015f272ba","name":"473c928b-2d1b-4af3-8449-71c015f272ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,27 +74,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c81e525-2653-41de-9216-ae70a12f1ef9","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d740aa4-7084-48b1-abac-ea01c51516a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"256fce00-49ff-4d77-970c-54491de01c86","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3f170cc3-016d-417f-a7a7-1b16e109cfee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f4c35235-0a4a-4e92-b874-0dedffc7821f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"81685b2c-7c51-40a5-a707-08547c447e9a","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2c0fb7cd-f2d2-4725-921a-33cf26ef73fb","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f73e42b-991a-4d2e-80e5-de079f730f75","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a3e3fec-9046-455f-a757-b5f1d9e99bba","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"473c928b-2d1b-4af3-8449-71c015f272ba","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"714f797d-dd46-4e08-b8d4-f87366130bd4","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8d288af5-2186-4892-bbc0-985a91e800eb","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c81e525-2653-41de-9216-ae70a12f1ef9","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4d740aa4-7084-48b1-abac-ea01c51516a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"256fce00-49ff-4d77-970c-54491de01c86","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3f170cc3-016d-417f-a7a7-1b16e109cfee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04ba7d49-9511-4dc7-9cb6-a41ef516e55a","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f4c35235-0a4a-4e92-b874-0dedffc7821f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"81685b2c-7c51-40a5-a707-08547c447e9a","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2c0fb7cd-f2d2-4725-921a-33cf26ef73fb","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f73e42b-991a-4d2e-80e5-de079f730f75","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4a3e3fec-9046-455f-a757-b5f1d9e99bba","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"473c928b-2d1b-4af3-8449-71c015f272ba","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"714f797d-dd46-4e08-b8d4-f87366130bd4","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a8eac70-b719-44e1-aaff-8fc7f64a1337","path":"sprites/Arthur_fight_attack/Arthur_fight_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8d288af5-2186-4892-bbc0-985a91e800eb","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://y4gd40jnu0xq"]
+
+[ext_resource type="Script" path="res://Scripts/Objects/StaticItem.gd" id="1_uay5q"]
+[ext_resource type="Texture2D" uid="uid://d8eiy723n860" path="res://Assets/placeholder3.png" id="2_pwnkp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1pbdi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vxpos"]
+
+[node name="MicroOnde" type="Node2D"]
+script = ExtResource("1_uay5q")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_1pbdi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_pwnkp")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_vxpos")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

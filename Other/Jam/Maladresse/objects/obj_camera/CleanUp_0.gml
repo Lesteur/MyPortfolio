@@ -1,0 +1,5 @@
+/// @description Destroy Camera
+
+camera_destroy(camera_default)
+camera_destroy(camera_battle)
+camera_destroy(camera_bigplan)

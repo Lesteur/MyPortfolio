@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://bst2wqyvhy54w"]
+
+[ext_resource type="Script" path="res://Scripts/Objects/object.gd" id="1_ox6eh"]
+[ext_resource type="SpriteFrames" uid="uid://b1cci7qw51uaa" path="res://Item_sprites/Ballon/BallonAnimation.tres" id="2_w1wyy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g6ivt"]
+radius = 5.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sobyh"]
+
+[node name="Ballon" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+collision_layer = 5
+script = ExtResource("1_ox6eh")
+objectType = "ballon"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+sprite_frames = ExtResource("2_w1wyy")
+animation = &"gonfle"
+frame_progress = 0.479541
+
+[node name="ObjectDetection" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 12
+
+[node name="Collision_Area" type="CollisionShape2D" parent="ObjectDetection"]
+shape = SubResource("CircleShape2D_g6ivt")
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+shape = SubResource("CircleShape2D_sobyh")
+
+[node name="Collision_Area" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_g6ivt")
+
+[node name="Drop_cooldown" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+
+[connection signal="body_entered" from="ObjectDetection" to="." method="_on_object_detection_body_entered"]
+[connection signal="body_entered" from="PlayerDetection" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="PlayerDetection" to="." method="_on_area_2d_body_exited"]
+[connection signal="timeout" from="Drop_cooldown" to="." method="_on_drop_cooldown_timeout"]

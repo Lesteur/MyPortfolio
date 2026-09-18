@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_set_effect_affinity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_set_effect_affinity",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Luke_fight_victory",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b54adfec-30f5-4a7a-829c-511c4be95c23","name":"b54adfec-30f5-4a7a-829c-511c4be95c23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"072a8d2c-a500-441b-b79f-23e5981edbbf","name":"072a8d2c-a500-441b-b79f-23e5981edbbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b211e5c2-29fc-4036-a957-b7a39849464b","name":"b211e5c2-29fc-4036-a957-b7a39849464b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b54adfec-30f5-4a7a-829c-511c4be95c23","name":"b54adfec-30f5-4a7a-829c-511c4be95c23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"072a8d2c-a500-441b-b79f-23e5981edbbf","name":"072a8d2c-a500-441b-b79f-23e5981edbbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b211e5c2-29fc-4036-a957-b7a39849464b","name":"b211e5c2-29fc-4036-a957-b7a39849464b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,27 +74,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f46e03b-aa96-47ab-bd95-1156800068f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"79b7b989-0e0b-41b4-9a9f-7fe9cd42b73a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0a1f7880-75df-49e6-a28d-caf8228c290f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b54adfec-30f5-4a7a-829c-511c4be95c23","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1056cdb4-7798-43e0-a857-5fe2d19c543d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"072a8d2c-a500-441b-b79f-23e5981edbbf","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7550b31c-3927-4269-b5a4-680a303ce8c4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b211e5c2-29fc-4036-a957-b7a39849464b","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1a1ce74c-0a85-4585-b937-f00e26801eed","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b09865fe-edc2-49b4-9fe3-53b5438fdf4a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40cd8455-e6e1-4884-a672-ca92b2b1934a","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2f46e03b-aa96-47ab-bd95-1156800068f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"05cf5a49-0521-4fa6-b70f-43b1253f95fe","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"79b7b989-0e0b-41b4-9a9f-7fe9cd42b73a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a1f860c-fc11-41a0-b51c-a6d14b2ccda5","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0a1f7880-75df-49e6-a28d-caf8228c290f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b54adfec-30f5-4a7a-829c-511c4be95c23","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1056cdb4-7798-43e0-a857-5fe2d19c543d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"072a8d2c-a500-441b-b79f-23e5981edbbf","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7550b31c-3927-4269-b5a4-680a303ce8c4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b211e5c2-29fc-4036-a957-b7a39849464b","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1a1ce74c-0a85-4585-b937-f00e26801eed","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf219775-92e9-4ad2-afd6-53ce1b731be1","path":"sprites/Luke_fight_victory/Luke_fight_victory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b09865fe-edc2-49b4-9fe3-53b5438fdf4a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_make_timing1_cutscene",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_make_timing1_cutscene",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Cutscenes/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
